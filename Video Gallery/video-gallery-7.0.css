@@ -1,0 +1,26 @@
+
+//vars for plugin
+/* @title-gallery-hulo-font:24px;
+@title-gallery-hulo-font-mobile: 20px;
+@title-gallery-hulo-max-width: 300px;
+//
+@hover-border-gallery-hulo-color: #3600d6;
+@hover-border-gallery-hulo-width: 4px;
+@hover-border-gallery-hulo-offset: 20px;
+@hover-animation-gallery-hulo-duration: .4s;
+//
+@play-button-size-gallery-hulo: 90px; */
+.center-both{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.transition-custom{
+    -webkit-transition: all @hover-animation-gallery-hulo-duration ease;
+    -o-transition: all @hover-animation-gallery-hulo-duration ease;
