@@ -1,0 +1,42 @@
+/*button hover options 
+@border-button-width: 5px;
+@button-font-color: #000;
+@button-border-color: #000;
+@button-background-color: #feca57;
+@button-font-size: 20px;
+@button-border-radius: 2px;
+@button-vertical-padding: .8em;  // can be in px/rem, .etc
+@button-horizontal-padding: 2em; // can be in px/rem, .etc
+
+@button-bg-on-hover: #000;
+@button-color-font-on-hover: #feca57;
+@animation-duration: .4s; // use ".4s" format or "400ms"*/
+
+.sqs-block-button-element--small.sqs-block-button-element{
+    border-color: @button-border-color;
+    color: @button-font-color;
+    padding: @button-vertical-padding @button-horizontal-padding;
+    font-size: @button-font-size;
+    border-radius: @button-border-radius;
+    border-width: @border-button-width !important;
+    -webkit-transition: all @animation-duration ease-out;
+    -moz-transition: all @animation-duration ease-out;
+    -o-transition: all @animation-duration ease-out;
+    transition: all @animation-duration ease-out;
+    color: @button-font-color !important;
+    background-color: @button-background-color !important;
+    &::after {
+        color: @button-bg-on-hover;
+        -webkit-transition: all @animation-duration ease-out;
+        -moz-transition: all @animation-duration ease-out;
+        -o-transition: all @animation-duration ease-out;
+        transition: all @animation-duration ease-out;
+    }
+    &:hover::after {
+        background-color: @button-bg-on-hover;
+    }
+    &:hover{
+      border-color:@button-bg-on-hover;
+      color: @button-color-font-on-hover !important;
+    }
+}
