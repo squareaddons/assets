@@ -1,0 +1,57 @@
+/* @line-color: #3cd9ec; // control color */
+/* @line-height: 13px;   // height of the lines */
+/* @bottom-offset: 4px;  // offset from the bottom */
+
+.animation-function {
+  -o-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+.header-nav-item--active {
+  position: relative;
+}
+.header-nav-item--active:before {
+  content: '';
+  position: absolute;
+  height: 13px !important;
+  background-color: #75daff;
+  right: 0;
+  bottom: 4px;
+  z-index: 0;
+  right: -5px;
+  left: -5px;
+  width: calc(100% + 8px);
+}
+.header-nav-item--active a {
+  background: none !important;
+  position: relative;
+  z-index: 10;
+}
+.header-nav-item {
+  position: relative;
+}
+.header-nav-item:before {
+  content: '';
+  position: absolute;
+  height: 13px;
+  background-color: #3cd9ec;
+  right: 0;
+  bottom: 4px;
+  z-index: 0;
+  right: -5px;
+  left: -5px;
+  width: 0px;
+  -o-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+.header-nav-item:hover:before {
+  width: calc(100% + 8px);
+}
+.header-nav-item a {
+  background: none !important;
+  position: relative;
+  z-index: 10;
+}
