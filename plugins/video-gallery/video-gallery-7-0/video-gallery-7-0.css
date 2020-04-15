@@ -67,7 +67,7 @@
     transform: translate(-50%, -50%);
     width: 100%;
     /*.center-both; */
-    background-image: url('https://static1.squarespace.com/static/5af5718b50a54fae43d4a4af/t/5af59b4e758d4685600b409c/1526045519027/play-button.png');
+    background-image: url(https://static1.squarespace.com/static/5af5718b50a54fae43d4a4af/t/5af59b4e758d4685600b409c/1526045519027/play-button.png);
     -webkit-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
