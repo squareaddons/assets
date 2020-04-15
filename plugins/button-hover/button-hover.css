@@ -1,0 +1,44 @@
+/*button hover options 
+@border-button-width: 5px;
+@button-font-color: #000;
+@button-border-color: #000;
+@button-background-color: #feca57;
+@button-font-size: 20px;
+@button-border-radius: 2px;
+@button-vertical-padding: .8em;  // can be in px/rem, .etc
+@button-horizontal-padding: 2em; // can be in px/rem, .etc
+@button-bg-on-hover: #000;
+@button-color-font-on-hover: #feca57;
+@animation-duration: .4s; // use ".4s" format or "400ms"*/
+
+.sqs-block-button-element--small.sqs-block-button-element{
+    border-color: #000; /* @button-border-color */
+    color:  #000; /* @button-font-color */
+    padding: .8em 2em; /* @button-vertical-padding @button-horizontal-padding */
+    font-size: 20px; /* @button-font-size; */
+    border-radius: 2px; /* @button-border-radius; */
+    border-width: 5px !important; /* @border-button-width !important; */
+    -webkit-transition: all .4s ease-out; /* all @animation-duration ease-out; */
+    -moz-transition: all .4s ease-out; /* all @animation-duration ease-out; */
+    -o-transition: all .4s ease-out; /* all @animation-duration ease-out; */
+    transition: all .4s ease-out; /*all @animation-duration ease-out; */
+    color: #000; /* @button-font-color !important; */
+    background-color: #feca57; /* @button-background-color !important; */
+}
+
+.sqs-block-button-element--small.sqs-block-button-element:after {
+    color: #000; /* @button-bg-on-hover; */
+    -webkit-transition: .4s ease-out; /* all @animation-duration ease-out; */
+    -moz-transition: .4s ease-out; /* all @animation-duration ease-out; */
+    -o-transition: .4s ease-out; /* all @animation-duration ease-out; */
+    transition: .4s ease-out; /* all @animation-duration ease-out; */
+}
+
+.sqs-block-button-element--small.sqs-block-button-element:hover {
+    border-color: #000; /* @button-bg-on-hover; */
+    color: #feca57 !important; /*@button-color-font-on-hover !important; */
+}
+
+.sqs-block-button-element--small.sqs-block-button-element:hover:after {
+    background-color: #000; /* @button-bg-on-hover; */
+}
