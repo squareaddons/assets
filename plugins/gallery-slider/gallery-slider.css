@@ -23,7 +23,7 @@
   }
 }
 .page-with-slider .text-for-slider {
-  position: absolute;
+  position: absolute !important;
   background: transparent;
   z-index: 100;
 }
