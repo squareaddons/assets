@@ -1,0 +1,52 @@
+// @main-button-color: #00A8E1;
+// @button-font-family: sans-serif;
+// @button-font-size: 24px;
+// @button-padding: 0.5em 2.75em 0.5em 0.75em;
+
+.page-section .sqs-block-button-element--small {
+  background-color: transparent;
+  padding: 0.5em 2.75em 0.5em 0.75em;   /* @button-padding; */
+  display: inline-block;
+  border-radius: 300px;
+  position: relative;
+  outline: none;
+  border: none;
+  font-size: 24px !important;   /* @button-font-size;   */
+  font-family: sans-serif;      /* @button-font-family; */
+  color: #00a8e1;               /* @main-button-color;  */    
+  line-height: 1em;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  overflow: hidden;
+}
+
+.page-section .sqs-block-button-element--small svg {
+  background: #00a8e1;         /* @main-button-color;  */
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  width: 2em;
+  height: 2em;
+  padding: .6em;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  box-sizing: border-box;
+}
+
+.page-section .sqs-block-button-element--small:hover {
+  background-color: #00a8e1;     /* @main-button-color;  */
+  color: #FFFFFF;
+}
+
+.page-section .sqs-block-button-element--small:hover svg {
+  transform: rotate(45deg);
+  will-change: transform;
+  border-radius: 50%;
+}
