@@ -26,6 +26,7 @@
   position: absolute !important;
   background: transparent;
   z-index: 100;
+  width: 100%;
 }
 
 .page-with-slider .text-for-slider .section-background {
