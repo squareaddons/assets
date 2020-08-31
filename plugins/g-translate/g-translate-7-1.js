@@ -42,8 +42,8 @@
         'width': '300px',
         'top': '17px',
         'overflow': 'scroll',
-        'left': '17px',
-        'right': 'initial'
+        'right': '17px',
+        'left': 'auto'
 
       });
    
