@@ -43,8 +43,8 @@ window.Squarespace.onInitialize(Y, function() {
       'width': '300px',
       'top': '17px',
       'overflow': 'scroll',
-      'left': '17px',
-      'right': 'initial'
+      'left': 'auto',
+      'right': '17px'
 
     });
 
