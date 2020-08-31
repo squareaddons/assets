@@ -101,7 +101,7 @@ Mediaqueries
     width: 100%!important;
   }
   #google_translate_element .goog-te-gadget-simple {
-    width: calc(100% 32px);
+    width: calc(100% - 32px);
     text-align: center;
   }
 }
