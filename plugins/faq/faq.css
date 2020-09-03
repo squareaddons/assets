@@ -6,7 +6,7 @@
 
 
 .section-contain-faq .faq-wrapper-item .faq-item{
-	position: relative;
+    position: relative;
     padding: 24px 32px;
     border-radius: 8px;
     margin-bottom: 16px;
@@ -14,9 +14,9 @@
 }
 
 @media only screen and (max-width: 640px){
-	.section-contain-faq .faq-wrapper-item .faq-item{
-		padding: 20px 24px;
-	}
+    .section-contain-faq .faq-wrapper-item .faq-item{
+	padding: 20px 24px;
+    }
 }
 
 .section-contain-faq .faq-item ul{
@@ -24,9 +24,9 @@
 }
 
 .section-contain-faq .faq-item h3{
-	display: block;
-	max-width: 85%;
-	margin: 0px;
+    display: block;
+    max-width: 85%;
+    margin: 0px;
 }
 
 .section-contain-faq .faq-item p{
@@ -36,29 +36,29 @@
 }
 
 .section-contain-faq .faq-item .faq-body-sqaddons{
-	display: none;
+    display: none;
 }
 
 .section-contain-faq .faq-item .plusminus-wrapper{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	position: absolute;
-	top: 24px;
-	right: 32px;
-	border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    border-radius: 50%;
     cursor: pointer;
 }
 
 @media only screen and (max-width: 640px){
     .plusminus-wrapper{
-		right: 20px;
+	right: 20px;
     }
 }
 
@@ -70,7 +70,7 @@
 
 .section-contain-faq .faq-item .plusminus:before,
 .section-contain-faq .faq-item .plusminus:after{
-	content: "";
+    content: "";
     display: block;
     position: absolute;		
     top: 50%; 
