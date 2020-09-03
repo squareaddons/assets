@@ -1,0 +1,98 @@
+/* 	@squareaddons-faq-title-color: #000;	    //  Title font color  */ 
+/* 	@squareaddons-faq-title-size: 24px;		    //  Title	font size  */  
+/* 	@squareaddons-faq-body-color: #000;		    //  Content font color  */  
+/* 	@squareaddons-faq-body-size: 16px;		    //  Content font size	 */ 
+/* 	@squareaddons-faq-background-size: #fff;  //  FAQ background color  */
+
+
+.section-contain-faq .faq-wrapper-item .faq-item{
+	position: relative;
+    padding: 24px 32px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px){
+	.section-contain-faq .faq-wrapper-item .faq-item{
+		padding: 20px 24px;
+	}
+}
+
+.section-contain-faq .faq-item ul{
+    margin: 0px;
+}
+
+.section-contain-faq .faq-item h3{
+	display: block;
+	max-width: 85%;
+	margin: 0px;
+}
+
+.section-contain-faq .faq-item p{
+    display: block;
+    max-width: 90%;
+    margin: 0px;
+}
+
+.section-contain-faq .faq-item .faq-body-sqaddons{
+	display: none;
+}
+
+.section-contain-faq .faq-item .plusminus-wrapper{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: absolute;
+	top: 24px;
+	right: 32px;
+	border-radius: 50%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px){
+    .plusminus-wrapper{
+		right: 20px;
+    }
+}
+
+.section-contain-faq .faq-item .plusminus{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section-contain-faq .faq-item .plusminus:before,
+.section-contain-faq .faq-item .plusminus:after{
+	content: "";
+    display: block;
+    position: absolute;		
+    top: 50%; 
+    left: 0;      
+    width: 100%;
+    height: 3px;
+    transition: .35s;
+}
+
+.section-contain-faq .faq-item .plusminus:before{		
+    transform: translatey(-50%);
+}
+
+.section-contain-faq .faq-item .plusminus:after{
+    transform: translatey(-50%) rotate(90deg);
+}
+
+.section-contain-faq .active-faq-item .plusminus:before{
+    transform: translatey(-50%) rotate(-90deg);
+    opacity: 0;
+}
+
+.section-contain-faq .active-faq-item .plusminus:after{
+    transform: translatey(-50%) rotate(0);
+}
