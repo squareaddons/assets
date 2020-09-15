@@ -19,5 +19,6 @@ var sliderDetail = tns({
   autoplayButtonOutput: false,
   controlsText: ['', ''],
   edgePadding: 0,
-  navPosition: 'bottom'
+  navPosition: 'bottom',
+  preventScrollOnTouch: 'force'
 });
