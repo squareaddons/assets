@@ -22,3 +22,5 @@ var sliderDetail = tns({
   navPosition: 'bottom',
   preventScrollOnTouch: 'force'
 });
+
+document.querySelectorAll('.summary-item-list-container .tns-outer .tns-nav')[0].style.display='flex';
