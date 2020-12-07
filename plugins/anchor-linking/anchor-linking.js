@@ -40,8 +40,8 @@ EPPZScrollTo.scrollVerticalToElementById('free-guide', 20);    });  });  */
 	});    
 	document.querySelectorAll(".header-menu-nav-item a[href*='#']").forEach(function(thisLink){        
 		thisLink.addEventListener("click", function() {      
-			simulateMenuClick(document.querySelectorAll(".header-burger-btn.burger")[0]);  
-			document.querySelectorAll('body')[0].classList.remove('header--menu-open');
+			simulateMenuClick(document.querySelectorAll(".header-display-mobile .header-burger-btn.burger")[0]);  
+			//document.querySelectorAll('body')[0].classList.remove('header--menu-open');
 		});  
 	}) 
 }());
