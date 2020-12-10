@@ -1,36 +1,39 @@
 /* @slider-text-color: #FFFFFF; */
 
 .page-with-slider .page-section.gallery-section.images-for-slider {
-  padding-top: 0px !important;
+padding-top: 0px !important;
 }
 .page-with-slider .page-section.gallery-section.images-for-slider .gallery-fullscreen-slideshow-bullet {
-  border-color: #fff;
+border-color: #fff;
 }
 .page-with-slider .page-section.gallery-section.images-for-slider .gallery-fullscreen-slideshow-bullet.active {
-  background-color: #fff;
+background-color: #fff;
 }
 @media only screen and (max-width: 1000px) and (orientation: landscape) {
-  .page-with-slider .page-section.gallery-section.images-for-slider .gallery-fullscreen-slideshow {
-    height: 160vh !important;
-  }
-  .page-with-slider .page-section.gallery-section.images-for-slider .text-for-slider {
-    margin-top: 0px;
-  }
+.page-with-slider .page-section.gallery-section.images-for-slider .gallery-fullscreen-slideshow {
+  height: 160vh !important;
+}
+.page-with-slider .page-section.gallery-section.images-for-slider .text-for-slider {
+  margin-top: 0px;
+}
 }
 @media only screen and (max-width: 330px) {
-  .page-with-slider .page-section.gallery-section.images-for-slider {
-    height: 100vh !important;
-  }
+.page-with-slider .page-section.gallery-section.images-for-slider {
+  height: 100vh !important;
+}
 }
 .page-with-slider .text-for-slider {
-  position: absolute !important;
-  background: transparent;
-  z-index: 100;
-  width: 100%;
+position: absolute !important;
+background: transparent;
+z-index: 100;
+width: 100%;
+width: calc(100% - 100px);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .page-with-slider .text-for-slider .section-background {
-  background: transparent !important;
+background: transparent !important;
 }
 .page-with-slider .text-for-slider p,
 .page-with-slider .text-for-slider h1,
@@ -39,11 +42,11 @@
 .page-with-slider .text-for-slider h4,
 .page-with-slider .text-for-slider h5,
 .page-with-slider .text-for-slider a:not(.sqs-block-button-element--medium) {
-  color: #ffffff;
+color: #ffffff;
 }
 @media only screen and (min-width: 640px) {
-  .page-with-slider .text-for-slider {
-    min-height: auto !important;
-    margin-top: 5vh;
-  }
+.page-with-slider .text-for-slider {
+  min-height: auto !important;
+  margin-top: 5vh;
+}
 }
