@@ -8,6 +8,9 @@
         'font-family': 'Roboto',
         'width':'100%'
       });
+      $("iframe").contents().find(".goog-te-menu2-item").css({
+       'overflow': 'hidden'
+      });
       // Change menu's padding
       $("iframe").contents().find('.goog-te-menu2-item-selected').css ('display', 'none');
 
