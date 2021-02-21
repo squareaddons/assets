@@ -35,7 +35,9 @@ window.Squarespace.onInitialize(Y, function() {
     // Change the iframe's box shadow
     $(".goog-te-menu-frame").css('box-shadow', '0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3)');
 
-
+      $("iframe").contents().find(".goog-te-menu2-item").css({
+       'overflow': 'hidden'
+      });
 
     // Change the iframe's size and position?
     $(".goog-te-menu-frame").css({
