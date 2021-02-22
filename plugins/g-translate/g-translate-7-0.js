@@ -66,5 +66,10 @@ $("iframe.goog-te-menu-frame").contents().find('.goog-te-menu2-item-selected > d
       'height': '100%',
       'width': '300px'
     });
+                $("iframe").contents().find(".goog-te-menu2-item").css({
+        'overflow': 'hidden'
+      });
+    
+    
   });
   });
