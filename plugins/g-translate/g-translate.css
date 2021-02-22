@@ -93,6 +93,8 @@ Mediaqueries
     left: initial !important;
     max-width: 100px;
     width: 100%!important;
+            background: #333;
+    border: 1px solid #fff;
   }
   #google_translate_element goog-te-gadget {
     width: 100%!important;
@@ -103,5 +105,7 @@ Mediaqueries
   #google_translate_element .goog-te-gadget-simple {
     width: 100%;
     text-align: center;
+             border: none !important;
+    background: transparent !important;
   }
 }
