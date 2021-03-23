@@ -1,5 +1,5 @@
  // RESTYLE THE DROPDOWN MENU
-    $('#google_translate_element').on("click", function () {
+ $('#google_translate_element').on("click", function () {
 
       // Change font family and color
       $("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
@@ -47,30 +47,40 @@
         'overflow': 'scroll',
         'right': '17px',
         'left': 'auto'
-
       });
    
-       $("iframe.goog-te-menu-frame").contents().find('body *:not(.indicator)').css({
+      $("iframe.goog-te-menu-frame").contents().find('body *:not(.indicator)').css({
         'display': 'block',
         'overflow': 'scroll'
       });
-$("iframe.goog-te-menu-frame").contents().find('.goog-te-menu2-item-selected > div').css({
+      
+      $("iframe.goog-te-menu-frame").contents().find('.goog-te-menu2-item-selected > div').css({
         'padding': '20px'
       });
-   $("iframe.goog-te-menu-frame").contents().find('.indicator').css({
+      
+      $("iframe.goog-te-menu-frame").contents().find('.indicator').css({
         'display': 'none'
       });
       
       // Change iframes's size
       $("iframe").contents().find('.goog-te-menu2').css({
         'height': '100%',
-        'width': '300px'
+        'width': '300px',
+        'overflow': 'auto',
+        'overflow-x': 'hidden'
       });
-     //Overflow hidden for item
-       $("iframe").contents().find(".goog-te-menu2-item").css({
+  
+      //Overflow hidden for item
+      $("iframe").contents().find(".goog-te-menu2-item").css({
         'overflow': 'hidden'
       });
-     
-     
-     
-    });
+  
+      $("iframe").contents().find('.goog-te-menu2 *').css({
+        'overflow': 'hidden'
+      });
+
+      $("iframe").contents().find('.goog-te-menu2-item div').css({
+        'box-sizing': 'border-box'
+      });
+          
+});
