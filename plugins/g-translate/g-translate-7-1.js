@@ -1,5 +1,12 @@
  // RESTYLE THE DROPDOWN MENU
  $('#google_translate_element').on("click", function () {
+  
+      // Change menu's height
+      /*
+      $("iframe").css({
+        'height':'calc(50% - 100px)'
+      });
+      */  
 
       // Change font family and color
       $("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
