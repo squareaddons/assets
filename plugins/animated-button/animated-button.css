@@ -75,3 +75,6 @@
 .page-section .sqs-block-button-element--small:hover svg path {
   fill: #FFFFFF; /* @circle-element-hover-color; */
 }
+#siteWrapper.site-wrapper .sqs-button-element--tertiary{
+    padding-right: 2.5em;
+}
