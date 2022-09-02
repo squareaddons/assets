@@ -40,7 +40,8 @@
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  top: 0px;
+  top: 50%;
+  transform: translateY(-50%);
   right: 0;
   bottom: 0;
   width: 2em;
@@ -64,9 +65,10 @@
 
 .page-section .sqs-block-button-element--small:hover svg {
   background-color: #00a8e1;  /* @main-button-color; */
-  transform: rotate(45deg);
+  transform: rotate(45deg), translateY(-50%);
   will-change: transform;
   border-radius: 50%;
+  
 }
 
 .page-section .sqs-block-button-element--small:hover svg path {
