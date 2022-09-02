@@ -52,6 +52,7 @@
   -o-transition: all .3s ease;
   transition: all .3s ease;
   box-sizing: border-box;
+      transform-origin: top;
 }
 
 .page-section .sqs-block-button-element--small svg path {
@@ -65,7 +66,7 @@
 
 .page-section .sqs-block-button-element--small:hover svg {
   background-color: #00a8e1;  /* @main-button-color; */
-  transform: rotate(45deg), translateY(-50%);
+  transform: rotate(45deg) translateY(-50%);
   will-change: transform;
   border-radius: 50%;
   
