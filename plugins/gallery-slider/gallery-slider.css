@@ -50,3 +50,7 @@ color: #ffffff;
   margin-top: 5vh;
 }
 }
+
+.page-section.text-for-slider .section-border{
+  background-color: transparent;
+}
