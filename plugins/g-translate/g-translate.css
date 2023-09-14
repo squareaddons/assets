@@ -88,11 +88,11 @@ Mediaqueries
 \* ================================== */
 @media (max-width: 640px) {
   #google_translate_element {
-    width: calc(100% - 50% - 53px);
+ /*   width: calc(100% - 50% - 53px);*/
     right: 17px;
     left: initial !important;
-    max-width: 100px;
-    width: 100%!important;
+    max-width: auto;
+    width: auto !important;
             background: #333;
     border: 1px solid #fff;
   }
